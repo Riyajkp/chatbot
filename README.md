@@ -22,3 +22,5 @@ LLMs differ from each other in how they are trained.
     For language translation tasks, you can consider models like MarianMT or T5. They are designed specifically for translating text between different languages.
     Example: You want to build a language translation tool that translates English text to French.
 
+
+Will be using facebook/blenderbot-400M-distill because it has an open-source license and runs relatively fast.
