@@ -24,3 +24,9 @@ LLMs differ from each other in how they are trained.
 
 
 Will be using facebook/blenderbot-400M-distill because it has an open-source license and runs relatively fast.
+
+To create a Python virtual environment and install the necessary libraries.
+pip3 install virtualenv 
+virtualenv my_env # create a virtual environment my_env
+source my_env/bin/activate # activate my_env
+python3 -m pip install transformers==4.30.2 torch
